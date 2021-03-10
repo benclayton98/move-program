@@ -19,6 +19,9 @@ By the end of this module all software engineers can:
 ### Workshops
 
 ### Individual Projects
+- [Tic Tac Toe](./projects/tic-tac-toe.md)
+- [Game of Life](./projects/game-of-life.md)
+- [Battleships](./projects/battleships.md)
 
 ### Pair Projects
 
