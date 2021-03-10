@@ -18,6 +18,8 @@ By the end of this module all software engineers can:
 
 ### Workshops
 
+### Individual Projects
+
 ### Pair Projects
 
 ### Coach Screen Recordings
