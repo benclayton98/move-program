@@ -22,7 +22,7 @@ By the end of this module all software engineers can:
 
 ### Workshops
 
-- []
+- [User stories to domain model](./workshops/user-stories-to-domain-model.md)
 
 ### Individual Projects
 - [Tic Tac Toe](./projects/tic-tac-toe.md)
