@@ -1,5 +1,9 @@
 # Practice Makes Perfect
 
+### Learning Objectives
+- Test-drive small programs
+- Reflect on the way you develop programs
+
 ## Intro
 
 Nice job - you're all set up now to test-drive developing programs. Now practice the red-green-refactor loop until it's subconscious!
@@ -41,3 +45,5 @@ Identify improvements to your test-driven development process
   4. Developer records their screen
   5. Observer notes when the Developer flails
   6. Switch Roles and go to 2.
+
+  [back](./codify-expected-behaviour.md) | [top](#learning-objectives) | [end](../README.md)

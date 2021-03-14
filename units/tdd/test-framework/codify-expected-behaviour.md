@@ -104,3 +104,5 @@ test.it("returns 3", function() {
 * What API should your test library have?
 
 * How will you publish your library? NPM?
+
+[back](./a-simple-test-framework.md) | [top](#learning-objectives) | [next](./practice-makes-perfect.md)
