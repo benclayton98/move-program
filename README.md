@@ -16,17 +16,22 @@ By the end of this module all software engineers can:
   - Effectively diagnose learning needs & identify learning goals
   - Plan work to meet learning goals and identify improvements to learning skill.
 
+### Units
+
+- [test-driven development](./units/tdd)
+
 ### Workshops
+
+- []
 
 ### Individual Projects
 - [Tic Tac Toe](./projects/tic-tac-toe.md)
 - [Game of Life](./projects/game-of-life.md)
 - [Battleships](./projects/battleships.md)
 
-### Pair Projects
-
 ### Coach Screen Recordings
 
 ### Challenges
+- [Airport Challenge](https://github.com/digital-futures-academy/airport-challenge)
 
 ### Resources
