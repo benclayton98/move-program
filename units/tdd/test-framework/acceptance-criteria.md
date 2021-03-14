@@ -31,14 +31,14 @@ You're going to build a simple test framework to help you convert stories into t
 
 Below is a type of Acceptance Criteria: it demonstrates what you should be able to do if you have written the required code. Notice that you don't _yet_ have a file named `test-framework.js` or defined a method `assertEquals`. This kind of Acceptance Criteria shows you explicitly what you need to do.
 
-```sh
+```js
 # from your project directory
 > .load test-framework.js
-=> true
+// true
 > assertEquals(1, 1)
-=> true
+// true
 > assertEquals(1, 2)
-=> false
+// false
 ```
 
 ## Instructions
