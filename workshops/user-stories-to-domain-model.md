@@ -32,9 +32,9 @@ As a supermarket shopper,
 So that I can buy items,
 I'd like to add items to my basket.
 
-As an observant individual,
+As a careful individual,
 So that I can stay in good health,
-I'd like to know if an item is still before it's sell by date before putting it in my basket
+I'd like to know if my basket if full before trying to add another item to my basket
 ```
 
 - [ ] Write down all the **nouns** and then all the **verbs** in the User Stories
