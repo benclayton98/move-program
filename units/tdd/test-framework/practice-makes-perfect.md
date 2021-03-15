@@ -46,4 +46,4 @@ Identify improvements to your test-driven development process
   5. Observer notes when the Developer flails
   6. Switch Roles and go to 2.
 
-  [back](./codify-expected-behaviour.md) | [top](#learning-objectives) | [end](../README.md)
+  [back](./codify-expected-behaviour.md) | [top](#learning-objectives) | [end](./README.md)
