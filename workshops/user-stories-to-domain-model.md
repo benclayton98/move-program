@@ -30,7 +30,7 @@ _'@' denotes a type._
 Objects | Properties | Messages | Output
 ------ | ------ | ----- | -----
 Cohort | name @String | name() | @String
-CohortList  | cohorts @Array | searchByCohortName(@String) | @Cohort
+CohortList  | cohorts @Array[@Cohort] | searchByCohortName(@String) | @Cohort
 
 ## Instructions
 Translate these two user stories into a functional representation:
