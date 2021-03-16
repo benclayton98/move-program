@@ -21,7 +21,6 @@ And here is a functional representation of that story:
 
 Objects  | Messages
 ------------- | -------------
-User  |
 CohortList  | searchByCohortName()
 
 ## Instructions
