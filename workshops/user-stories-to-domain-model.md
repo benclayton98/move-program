@@ -22,7 +22,7 @@ And here is a representation of that story:
 Objects | Messages 
 ------ | ------ 
 Cohort | name() 
-CohortList  | searchByCohortName(String)
+CohortList  | searchByCohortName(@String)
 
 
 Then we can make it a functional representation by thinking about what data the objects need and what the methods should do.
