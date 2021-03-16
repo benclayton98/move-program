@@ -19,8 +19,8 @@ I want to search a list of all cohorts by a cohort name.
 
 And here is a functional representation of that story:
 
-Objects  | Messages | Output
-------------- | -------------
+Objects | Messages | Output
+------ | ------ | -----
 Cohort | name() | String
 CohortList  | searchByCohortName(String) | Cohort
 
