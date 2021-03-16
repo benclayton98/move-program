@@ -26,11 +26,11 @@ CohortList  | searchByCohortName(String)
 
 
 Then we can make it a functional representation by thinking about what data the objects need and what the methods should do.
-
-Objects | Messages | Properties | Output
+_'@' denotes a type._
+Objects | Properties | Messages | Output
 ------ | ------ | ----- | -----
-Cohort | name() | name (String) | String
-CohortList  | searchByCohortName(String) | cohorts (Array) | Cohort
+Cohort | name @String | name() | @String
+CohortList  | cohorts @Array | searchByCohortName(@String) | @Cohort
 
 ## Instructions
 Translate these two user stories into a functional representation:
