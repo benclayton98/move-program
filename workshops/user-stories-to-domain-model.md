@@ -22,7 +22,7 @@ And here is a functional representation of that story:
 Objects  | Messages
 ------------- | -------------
 User  |
-CohortList  | find_by_cohort_name
+CohortList  | searchByCohortName()
 
 ## Instructions
 Translate these two user stories into a functional representation:
