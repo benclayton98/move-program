@@ -19,10 +19,10 @@ I want to search a list of all cohorts by a cohort name.
 
 And here is a functional representation of that story:
 
-Objects  | Messages
+Objects  | Messages | Output
 ------------- | -------------
-Cohort | name()
-CohortList  | searchByCohortName()
+Cohort | name() | String
+CohortList  | searchByCohortName(String) | Cohort
 
 ## Instructions
 Translate these two user stories into a functional representation:
