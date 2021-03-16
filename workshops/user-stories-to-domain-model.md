@@ -17,12 +17,20 @@ So I can find a specific cohort,
 I want to search a list of all cohorts by a cohort name.
 ```
 
-And here is a functional representation of that story:
+And here is a representation of that story:
 
-Objects | Messages | Output
------- | ------ | -----
-Cohort | name() | String
-CohortList  | searchByCohortName(String) | Cohort
+Objects | Messages 
+------ | ------ 
+Cohort | name() 
+CohortList  | searchByCohortName(String)
+
+
+Then we can make it a functional representation by thinking about what data the objects need and what the methods should do.
+
+Objects | Messages | Properties | Output
+------ | ------ | ----- | -----
+Cohort | name() | name (String) | String
+CohortList  | searchByCohortName(String) | cohorts (Array) | Cohort
 
 ## Instructions
 Translate these two user stories into a functional representation:
@@ -38,7 +46,8 @@ I'd like to know if my basket if full before trying to add another item to my ba
 ```
 
 - [ ] Write down all the **nouns** and then all the **verbs** in the User Stories
-- [ ] Draw a table like the one above and then organise the nouns and verbs into **objects** and **messages** within the table
+- [ ] Draw a table like the first one above and then organise the nouns and verbs into **objects** and **messages** within the table
+- [ ] Then extend your table and make it a functional representation by adding properties and function outputs.
 - [ ] Draw a box and arrow diagram or a [sequence diagram](https://en.wikipedia.org/wiki/Sequence_diagram) that shows how your objects will use messages to communicate with one another
 - [ ] Show it to someone in your cohort or coach and see if it makes sense to them.
 
