@@ -53,6 +53,8 @@ I'd like to know if my basket if full before trying to add another item to my ba
 
 ### Further work
  - [ ] There are different ways to model domains. Find another way to do it: investigate [more techniques](https://developer.ibm.com/articles/an-introduction-to-uml/).
+ - [ ] Convert your domain model into a set of tests and show this to your coach.
+ - [ ] Once you have your tests written, write source code to make them pass
 
 ### Resources
 - [Introduction to User Stories](https://www.mountaingoatsoftware.com/agile/user-stories)
