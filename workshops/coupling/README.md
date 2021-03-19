@@ -83,3 +83,8 @@ wallet = new Wallet(new Balance(10000))
 
 ### Further work
  - [ ] Decouple the tests for the `Wallet` and `Balance` example - isolate the subject under test in the wallet spec.
+ - [ ] Investigate an example implementation in `/_solutions`. What reflections do you have on this approach?
+
+### Recordings
+
+- [mse-2103-a](https://youtu.be/c82umjr_3n0)
