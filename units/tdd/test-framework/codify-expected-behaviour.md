@@ -89,7 +89,7 @@ How might you get this to work? How lovely and readable is this?!
 ```js
 test.it("returns 3", function() {
   // Setup, Execute, Verify
-  return test.expect(countEvenNumbers([1,2,3,4,5,6])).toEqual(3);
+  test.expect(countEvenNumbers([1,2,3,4,5,6])).toEqual(3);
 })
 ```
 
