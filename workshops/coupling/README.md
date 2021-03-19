@@ -27,8 +27,7 @@ $ npx eslint src
 
 > An example of tight coupling occurs when a dependent class contains a pointer directly to a concrete class which provides the required behavior. The dependency cannot be substituted, or its "signature" changed, without requiring a change to the dependent class. Loose coupling occurs when the dependent class contains a pointer only to an interface, which can then be implemented by one or many concrete classes.
 
-Consider the following example.
-
+Consider the following example. Note how the class `Balance` is hardcoded inside the constructor function body. What would need to change if we needed a `Wallet` with a different starting balance?
 ```js
 class Wallet {
   constructor() {
@@ -36,13 +35,15 @@ class Wallet {
     this.cards = [];
   }
 
-  take(amount) {
-    this.cashBalance.subtract(amount);
+  add(amount) {
+    this.cashBalance.add(amount);
     return this.cashBalance.total();
   }
 }
-// tightly coupled to current implementation of Balance class
+// This implementation of Wallet is tightly coupled to the Balance class
 ```
+
+One way to move towards looser coupling is to move the pointer to the class definition _outside_ of the class as you can see below. `Wallet` now only refers to the abstraction - a named argument which we can use at runtime - and the interface of the abstraction (it must still implement `#add()` and `#total()`)
 
 ```js
 class Wallet {
@@ -53,10 +54,12 @@ class Wallet {
   // ...
 }
 
-let wallet1 = new Wallet(new Balance(10000))
+let wallet1 = new Wallet(new Balance(20))
 let wallet2 = new Wallet(new Balance(500))
+// or even
+let wallet3 = new Wallet(new HiddenBalance(1000000)) // as long it implements the same interface
 ```
-
+Another approach is similar and allows for less need to always specify dependencies at runtime: use default arguments like below.
 ```js
 class Wallet {
   constructor(cashBalance = new Balance(50)) {
