@@ -16,7 +16,7 @@ By the end of this unit all software engineers can:
 
 ### Pair Projects
 
-- [bobs-bagels](./../tdd/bobs-bagels)
+- [bobs-bagels](../../projects/bobs-bagels)
 
 ### Workshops
 

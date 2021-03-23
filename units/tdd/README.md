@@ -15,7 +15,7 @@ By the end of this unit all software engineers can:
 ### Pair Projects
 
 - [test-framework](./test-framework)
-- [bobs-bagels](./bobs-bagels)
+- [bobs-bagels](../../projects/bobs-bagels)
 
 ### Workshops
 - [User stories to domain model](../../workshops/user-stories-to-domain-model.md)
