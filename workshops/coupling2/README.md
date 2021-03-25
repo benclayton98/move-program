@@ -30,4 +30,5 @@ $ npx eslint src --fix
 
 ## Further work
 
+- [ ] Isolate the subject under test in `truth-teller.spec.js` - find the dependency and then decouple it from the subject. Your pending tests should then pass (once you remove the `x` from before the `describe`)
 - [ ] Use [jasmine](https://jasmine.github.io/tutorials/your_first_suite) spies to get more control over your test doubles. Replace the Receipt test double with a jasmine spy and assert that its `print()` method was called.
