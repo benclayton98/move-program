@@ -1,5 +1,5 @@
 class TruthTeller {
-  guess(Math) {
+  guess() {
     return Math.random() > 0.5
   }
 }
