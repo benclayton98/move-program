@@ -18,7 +18,7 @@ Let's use a 3rd party library, twilio, to send SMS messages to your phone!
 - [ ] You'll know you have succeded when
   - your tests pass and no SMS messages are sent to your phone
   - you can run `node index.js` and send a message to your phone
-  - all of your credentials and personal data is stored in environment variables
+  - all of your credentials and personal data are stored in environment variables
 
 ## Further work
 - [ ] uncomment the two extra lines of code and explore how they work
