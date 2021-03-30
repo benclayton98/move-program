@@ -2,11 +2,11 @@
 
 ### Learning Objectives
 - Use code from a third party library in a project
-- Explain different testing strategies for third party code
+- Explain a testing strategy for third party code
 
 ### Intro
 
-Let's use a 3rd party library, twilio, to send SMS messages to our phone!
+Let's use a 3rd party library, twilio, to send SMS messages to your phone!
 
 ## Instructions
 
