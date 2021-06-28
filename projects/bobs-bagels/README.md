@@ -1,6 +1,6 @@
 # Bob's Bagels
 
-![](../../../_images/bagels.jpg)
+![](../../_images/bagels.jpg)
 
 ### Bob needs you!
 
