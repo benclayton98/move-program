@@ -1,21 +1,26 @@
 const test = require('../test-framework.js')
-const move = require('../src/move.js')
+let move = require('../src/move.js')
 
 const Skateboard = require('../src/skateboard.js');
 const Car = require('../src/car.js');
 const Plane = require('../src/plane.js');
+const Move = require('../src/move.js');
 
-console.log("move()")
+
+console.log('move')
 test.it("Skateboard", function() {
-  test.assertEquals(move(new Skateboard()), "moved 100m");
+  move = new Move();
+  test.assertEquals(move.skateboard(), "moved 100m");
 })
 
 test.it("Car", function() {
-  test.assertEquals(move(new Car()), "moved 1000m");
+  move = new Move();
+  test.assertEquals(move.car(), "moved 1000m");
 })
 
 test.it("Plane", function() {
-  test.assertEquals(move(new Plane()), "moved 10000m");
+  move = new Move();
+  test.assertEquals(move.plane(), "moved 10000m");
 })
 
 test.it("SpaceShip", function() {
